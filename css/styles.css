@@ -1,0 +1,195 @@
+.background-color{
+    background-color: #999999;
+}
+/*top: 120px;*/
+/*position: absolute;*/
+/*left: 300px;*/
+/*width: 672px;*/
+/*height: 672px;*/
+/*margin: 20px;*/
+
+.main-border{
+    border-bottom:solid 12px #2b2b2b;
+    border-left:solid 12px #555555;
+    border-right:solid 12px #555555;
+    border-top:solid 12px #2b2b2b;
+}
+/*!* Smartphones (portrait and landscape) ----------- *!*/
+/*@media only screen*/
+/*and (min-device-width : 320px)*/
+/*and (max-device-width : 480px) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* Smartphones (landscape) ----------- *!*/
+/*@media only screen*/
+/*and (min-width : 321px) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* Smartphones (portrait) ----------- *!*/
+/*@media only screen*/
+/*and (max-width : 320px) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* iPads (portrait and landscape) ----------- *!*/
+/*@media only screen*/
+/*and (min-device-width : 768px)*/
+/*and (max-device-width : 1024px) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* iPads (landscape) ----------- *!*/
+/*@media only screen*/
+/*and (min-device-width : 768px)*/
+/*and (max-device-width : 1024px)*/
+/*and (orientation : landscape) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* iPads (portrait) ----------- *!*/
+/*@media only screen*/
+/*and (min-device-width : 768px)*/
+/*and (max-device-width : 1024px)*/
+/*and (orientation : portrait) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* Desktops and laptops ----------- *!*/
+/*@media only screen*/
+/*and (min-width : 1224px) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* Large screens ----------- *!*/
+/*@media only screen*/
+/*and (min-width : 1824px) {*/
+/*!* Styles *!*/
+/*}*/
+
+/*!* iPhone 4 ----------- *!*/
+/*@media*/
+/*only screen and (-webkit-min-device-pixel-ratio : 1.5),*/
+/*only screen and (min-device-pixel-ratio : 1.5) {*/
+/*!* Styles *!*/
+/*}*/
+.div-sizes{
+    width: 83px !important;
+    height: 83px !important;
+    text-align: center;
+    float: left;
+}
+
+.white-image{
+    /*background: url(../../PureChess_2K17/images/classic-piece-white.PNG ) no-repeat bottom right;*/
+    background-image:url('../images/classic-piece-white.png');
+    width:80px;
+    height:80px;
+}
+
+.black-image{
+    background-image:url('../images/classic-piece-black.png');
+    height: 80px;
+    width: 80px;
+    /*background: url(../../PureChess_2K17/images/classic-piece-black.PNG) no-repeat bottom right;*/
+
+}
+.draggable{
+    z-index: 1;
+    background-size:  contain;
+    box-sizing: inherit;
+    align-self: auto;
+}
+.Black-Piese{
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    height: 85px;
+    width: 45px;
+}
+.Black-Pown-Piese{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    height: 85px;
+    width: 60px;
+
+}
+.White-Piese{
+    height: 85px;
+    width: 45px;
+    left: 20px;
+    position: absolute;
+    top: 0px;
+}
+.White-Pown-Piese{
+    height: 85px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+
+/* crate classess for chessmans*/
+
+/*div.b-l-r:before{
+    content:url(../images/black/b-l-r.png);
+}*/
+.color-selected-div{
+    box-shadow: inset 0px 0px 5px 2px #000;
+}
+
+.path{
+    box-shadow: inset 0px 0px 10px 5px #009c95;
+}
+
+.cross{
+    box-shadow: inset 0px 0px 10px 5px #cc0000;
+}
+
+.inner{
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+div > div > div > div > div > div{
+    left: 0px;
+    position: absolute;
+    height: 100px;
+    width:100px;
+
+}
+
+/*.rotate {*/
+/*-moz-transform: rotate(180deg);*/
+/*-webkit-transform:rotate(180deg); */
+/*-ms-transform:rotate(180deg);*/
+/*-o-transform:rotate(180deg);*/
+/*}*/
+
+#board{
+    -moz-transition: all 1s ease;-webkit-transition: all 1s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;
+    top: 150px;
+    position: absolute;
+
+}
+
+
+/*.div-cross{*/
+/*position: relative;*/
+/*width: 60px !important;*/
+/*height: 60px !important;*/
+/*text-align: center;*/
+/*float: left;*/
+/*}*/
+
+.team-name{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+    color: #c7ddef;
+
+}
